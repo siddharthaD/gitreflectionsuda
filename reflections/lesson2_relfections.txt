@@ -3,6 +3,9 @@ A .git folder is created. An initial repository is commited. This is used to sta
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+Staging area is the intermediate space between repository and working directory. We add new files, reset them before commiting them to repository. Using
+staging area we can add testing workflow before commiting changes to repository.
+Here I am once again
 
 How can you use the staging area to make sure you have one commit per logical
 change?
