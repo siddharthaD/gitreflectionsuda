@@ -1,0 +1,34 @@
+A very large file usually contains 100's to 1000's of lines.
+As time goes on we need to modify the file, by adding, deleting or modifying few lines.
+When we do any modifications we hope that everything works as expected.
+But many a times this doesn't work accordingly. 
+And moreover while modifying we might make some mistakes.
+It is not easy to compare the old file and new file manually to find the changes.
+In those cases we can use diff in linux/macos to find the differences of two files.
+This will help us having a quick look of all the additions, substractions and modifications.
+Thereby reducing the time required to pinpoint the error.
+
+While reducing the time required to pin point errors, we can restore to earlier versions.
+In everyday life of a programmer, we write thousands of lines of code adding new features or
+modifying the old ones to applications. We need to ensure that these modifications don't break the applications.
+In the case it does, we should be able to quickly revert back to the old versions.
+Reverting back to the old versions should be intutive enough. This will reduce manual errors and increase the system quality.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Manually choosing when to commit helps us to logically segregate between versions. Choosing too small commit size as in the case of automatic version control will cluster the log.
+Having too big of a commit spanning multiple features or files will make debugging hard. By choosing a resonably logical size for commit it would be easier to 
+debug and understand the purpose of each commits.
+
+
+Git Diff is to find differences between two versions of the repository
+Git log shows the list of commits
+
+Git Checkout temporarily copies the web slinging code to the demonic preprocessor which can be at a later date reverted back to the present state. 
+Just remember not to cause any time vairances or you will be lost in the timeless space forever. Detached Head they call this
+
+How might using version control make you more confident to make changes that could break something?
+By quick checking out the code and trying out each commit we can pinpoint the problem pretty easily. This will help us be more confident.
+
+What do I want to use GIT for?
+Well, firstly I'd like to version and showcase the side projects I do to the world. And colloborate with different people on them. This requires a version controlling system.
+I'd like to use Git for this purpose.
