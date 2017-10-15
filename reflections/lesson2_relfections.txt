@@ -9,14 +9,22 @@ Here I am once again
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+Staging area is the temporary location where the changes to be commited are placed. By manually adding the files to staging area we will 
+get a chance to recheck before commiting the changes. This will ensure everything is going as per our requirement without any side effects
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+Branches are important in cases where we don't want to do any changes to the master repository. Say for example we are building an 
+experimental feature or we are solving a bug and parallely someone else is working on the new feature.
 
 How do the diagrams help you visualize the branch structure?
+Diagrams help us realise which branches will be reacheable. What all branches and have been created on the repository.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+The result would be the changes in one branch will be added to the main branch. And further the changes done will be on the main branch. We can represent this using two branch nodes pointing to main branch node.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+Manually merging of brnaches give the developer control. So the conflicts can be resolved. Automatic merging will be more prudent where developer is prone to manual errors.

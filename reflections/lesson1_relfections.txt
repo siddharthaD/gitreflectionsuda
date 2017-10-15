@@ -32,3 +32,4 @@ By quick checking out the code and trying out each commit we can pinpoint the pr
 What do I want to use GIT for?
 Well, firstly I'd like to version and showcase the side projects I do to the world. And colloborate with different people on them. This requires a version controlling system.
 I'd like to use Git for this purpose.
+
