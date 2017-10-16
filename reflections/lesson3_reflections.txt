@@ -18,12 +18,13 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    Quick reversal and quick check of any changes done on the shared repository before modifying stuff.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    In day-to-day we share the code files using zip through email. Which works if there is one or two members. This quickly becomes a problem if multiple people are working
+    on this parallely. 
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
